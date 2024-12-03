@@ -1,0 +1,183 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; 
+    font-family: Arial, sans-serif;
+}
+
+
+.header, .footer, .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+   
+}
+
+.square {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3498db;
+    
+}
+.header :nth-child(1) {
+    height: 55em;
+    
+}
+.main :nth-child(1) {
+
+height: 45em;
+background-color: white;
+}
+.main :nth-child(2) {
+    height: 60em;
+    background-color: gray;
+}
+.main :nth-child(3) {
+    height: 50em;
+    background: white;
+}
+.main :nth-child(4) {
+    height: 80em;
+    background-color: gray;
+    padding: 60em;
+    
+    
+    
+}
+.footer :nth-child(1) {
+    height: 80em;
+    background-color: black;
+}
+.innersquare {
+   
+   width: 55%;
+    height: 25em;
+    background-color: purple; 
+    position: absolute; 
+    margin-top: 10%;
+}
+.nav {
+    width: 40%;
+    height: 8em;
+    background-color: purple; 
+    position: absolute; 
+   top:0
+}
+.button {
+    width: 10em;
+    height: 5em;
+    background-color: purple; 
+    position: absolute; 
+    top: 0;
+    margin-left: 70%;
+}
+
+.mainsquare {
+    width: 47em;
+    height: 25em;
+    background-color: purple;
+    position: absolute;
+    margin-top: 53%;
+    margin-left: 17%;
+    
+}
+.mainsquare1 {
+    width: 35em;
+    height: 30em;
+    background-color: purple;
+    position: absolute;
+    margin-top: 53%;
+    margin-left: 63%;
+    
+}
+.mainsquare2 {
+    width: 35em;
+    height: 25em;
+    background-color: purple;
+    position: absolute;
+    margin-top: 95%;
+    margin-left: 12%;
+    
+    
+}
+.mainsquare3 {
+    width: 42em;
+    height: 35em;
+    background-color: purple;
+    position: absolute;
+    margin-top: 95%;
+    margin-left: 50%;
+    
+    
+}
+.mainsquare4 {
+    width: 40em;
+    height: 35em;
+    background-color: purple;
+    position: absolute;
+    margin-right: 40%;
+   margin-bottom: 13%;
+    
+    
+}
+.mainsquare5 {
+    width: 35em;
+    height: 20em;
+    background-color: purple;
+    position: absolute;
+    margin-bottom: 20%;
+    margin-left: 35%
+    
+}
+.mainsquare8 {
+width: 50em;
+height: 17em;
+background-color: purple;
+position: absolute;
+margin-top: 230em;
+}
+
+.mainsquare6 {
+    width: 80em;
+    height: 15em;
+    background-color: purple;
+    position: absolute;
+    margin-top: 70%;
+}
+.mainsquare7 {
+    width: 80em;
+    height: 40em;
+    background-color: purple;
+    position: absolute;
+    margin-top: 150em;
+    
+}
+.footerimg{
+    width: 27em;
+    height: 18em;
+    background-color: purple;
+    position: absolute;
+    margin-right: 70%;
+    margin-bottom: 19%;
+   
+
+}
+.list {
+    width: 12em;
+    height: 40em;
+    background-color: purple;
+   margin: 3em;
+     
+}
