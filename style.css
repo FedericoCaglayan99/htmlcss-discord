@@ -11,6 +11,7 @@ body {
     flex-direction: column;
     height: 100vh; 
     font-family: Arial, sans-serif;
+    
 }
 
 
@@ -23,16 +24,29 @@ body {
    
 }
 
-.square {
+.logo-container {
+    position: absolute; 
+    top: 40px; 
+    left: 150px; 
+}
+
+.logo {
+    width: 150px; 
+    height: auto; 
+}
+ .square {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #3498db;
+   
     
 }
-.header :nth-child(1) {
-    height: 55em;
+.header > .square {
+    height: 45em;
+    background-image: url(./img-3/jumbo.png);
+    background-size: cover; 
+    background-repeat: no-repeat; 
     
 }
 .main :nth-child(1) {
@@ -42,16 +56,16 @@ background-color: white;
 }
 .main :nth-child(2) {
     height: 60em;
-    background-color: gray;
+    background-color: #F6F6F6;
 }
 .main :nth-child(3) {
     height: 50em;
     background: white;
 }
 .main :nth-child(4) {
-    height: 80em;
-    background-color: gray;
-    padding: 60em;
+    height: 70em;
+    background-color:#ffffff ;
+    padding: 55em;
     
     
     
@@ -61,107 +75,242 @@ background-color: white;
     background-color: black;
 }
 .innersquare {
-   
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
    width: 55%;
     height: 25em;
-    background-color: purple; 
     position: absolute; 
-    margin-top: 10%;
+    margin-top: 6%;
 }
+.title {
+    font-size: 3rem;
+    padding-bottom: 60px;
+    color: white;
+}
+
+.paragraph {
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.3rem;
+    padding: 10px;
+line-height: 1.8;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+    margin-top: 20px;
+}
+.buttons button {
+    font-size: 1.4rem;
+    border-radius: 30px;
+    padding: 17px 33px;
+}
+.buttons button i {
+    padding-right: 5px;
+}
+
+.btn1 {
+    padding: 10px 20px;
+    background-color: white;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    color: black;
+}
+.btn2 { 
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    color: white;
+}
+
 .nav {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
     width: 40%;
     height: 8em;
-    background-color: purple; 
     position: absolute; 
    top:0
+   
 }
-.button {
+.ulnav {
+display: flex;
+list-style: none;
+gap: 40px;     
+}
+.ulnav li {
+    font-size: 1rem;
+    color: white;
+    cursor: pointer; 
+}
+.buttonn {
     width: 10em;
     height: 5em;
-    background-color: purple; 
     position: absolute; 
-    top: 0;
-    margin-left: 70%;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin-bottom: 37.5em;
+    margin-left: 80em;
+   
+}
+.buttonn button {
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 1rem;
 }
 
 .mainsquare {
-    width: 47em;
-    height: 25em;
-    background-color: purple;
+    width: 55em;
+    height: 30em;
     position: absolute;
-    margin-top: 53%;
+    margin-top: 45%;
     margin-left: 17%;
     
 }
+.mainsquare img {
+    width: 100%; 
+    height: 100%; 
+   
+   
+}
 .mainsquare1 {
-    width: 35em;
-    height: 30em;
-    background-color: purple;
+    width: 25em;
+    height: 28em;
     position: absolute;
-    margin-top: 53%;
+    margin-top: 47%;
     margin-left: 63%;
     
 }
+h2 {
+    font-size: 45px;
+    padding: 10px;
+}
+p {
+    font-size: 20px;
+    padding: 5px;
+    padding-top: 15px;
+    line-height: 1.8;
+}
 .mainsquare2 {
-    width: 35em;
+    width: 28em;
     height: 25em;
-    background-color: purple;
     position: absolute;
-    margin-top: 95%;
-    margin-left: 12%;
+    margin-top: 90%;
+    margin-left: 23%;
     
     
 }
 .mainsquare3 {
     width: 42em;
     height: 35em;
-    background-color: purple;
     position: absolute;
-    margin-top: 95%;
-    margin-left: 50%;
-    
-    
+    margin-top: 85%;
+    margin-left: 50%;  
+}
+.mainsquare3 img {
+    width: 100%; 
+    height: 100%; 
+   
 }
 .mainsquare4 {
-    width: 40em;
-    height: 35em;
-    background-color: purple;
+    width: 45em;
+    height: 40em;
     position: absolute;
-    margin-right: 40%;
-   margin-bottom: 13%;
-    
-    
+    margin-right: 35%;
+   margin-bottom: 7%;
+}
+.mainsquare4 img {
+    width: 100%;
+    height: 100%;
 }
 .mainsquare5 {
-    width: 35em;
+    display: flex;
+    flex-direction: column;
+    width: 25em;
     height: 20em;
-    background-color: purple;
     position: absolute;
-    margin-bottom: 20%;
-    margin-left: 35%
-    
+    margin-bottom: 7%;
+    margin-left: 30%;   
 }
+.mainsquare5 p {
+    background-color: transparent !important;
+}
+
 .mainsquare8 {
-width: 50em;
+    display: flex;
+    flex-direction: column;
+width: 40em;
 height: 17em;
-background-color: purple;
 position: absolute;
 margin-top: 230em;
 }
+.mainsquare8 h2 {
+    background-color: transparent !important;
+    font-size: 2rem;
+    text-align: center;
+}
+.lastbutton {
+    display: block;
+    margin: 20px auto; 
+    padding: 5px 35px;
+    font-size: 1.2rem;
+    background-color: #7289DA !important;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+   color: white;
+   font-size: 1.3rem;
+}
 
+
+    
 .mainsquare6 {
-    width: 80em;
+    display: flex;
+    flex-direction: column;
+    width: 65em;
     height: 15em;
-    background-color: purple;
     position: absolute;
     margin-top: 70%;
+}
+.mainsquare6 img {
+    width: 100%;
+    height: 100%;
+}
+.mainsquare6 h2 {
+    text-align: center;
+    font-size: 3.3rem;
+}
+.mainsquare6 p {
+    text-align: center;
+    background-color: transparent !important;
 }
 .mainsquare7 {
     width: 80em;
     height: 40em;
     background-color: purple;
     position: absolute;
-    margin-top: 150em;
+    margin-top: 150em;   
+}
+.mainsquare7 img {
+    width: 100%;
+    height: 100%;
     
 }
 .footerimg{
